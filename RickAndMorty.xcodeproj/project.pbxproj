@@ -16,6 +16,10 @@
 		76FCB6A02B0E780900D1F2D1 /* RickAndMortyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FCB69F2B0E780900D1F2D1 /* RickAndMortyTests.swift */; };
 		76FCB6AA2B0E780900D1F2D1 /* RickAndMortyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FCB6A92B0E780900D1F2D1 /* RickAndMortyUITests.swift */; };
 		76FCB6AC2B0E780900D1F2D1 /* RickAndMortyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FCB6AB2B0E780900D1F2D1 /* RickAndMortyUITestsLaunchTests.swift */; };
+		76FCB6BB2B0E870400D1F2D1 /* cardCollectionCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FCB6BA2B0E870400D1F2D1 /* cardCollectionCellCollectionViewCell.swift */; };
+		76FCB6BD2B0E8F1100D1F2D1 /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FCB6BC2B0E8F1100D1F2D1 /* CharacterModel.swift */; };
+		76FCB6C62B13A29000D1F2D1 /* rickAndMortyBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76FCB6C52B13A29000D1F2D1 /* rickAndMortyBackground.jpg */; };
+		76FCB6CA2B13AA3C00D1F2D1 /* get_schwifty.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76FCB6C92B13AA3C00D1F2D1 /* get_schwifty.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		76FCB6A52B0E780900D1F2D1 /* RickAndMortyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickAndMortyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76FCB6A92B0E780900D1F2D1 /* RickAndMortyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyUITests.swift; sourceTree = "<group>"; };
 		76FCB6AB2B0E780900D1F2D1 /* RickAndMortyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		76FCB6BA2B0E870400D1F2D1 /* cardCollectionCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardCollectionCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		76FCB6BC2B0E8F1100D1F2D1 /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
+		76FCB6C52B13A29000D1F2D1 /* rickAndMortyBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rickAndMortyBackground.jpg; sourceTree = "<group>"; };
+		76FCB6C92B13AA3C00D1F2D1 /* get_schwifty.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = get_schwifty.ttf; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,8 @@
 		76FCB6872B0E780800D1F2D1 /* RickAndMorty */ = {
 			isa = PBXGroup;
 			children = (
+				76FCB6C72B13A55F00D1F2D1 /* Fonts */,
+				76FCB6C42B13A28200D1F2D1 /* Images */,
 				76FCB6882B0E780800D1F2D1 /* AppDelegate.swift */,
 				76FCB68A2B0E780800D1F2D1 /* SceneDelegate.swift */,
 				76FCB68C2B0E780800D1F2D1 /* ViewController.swift */,
@@ -106,6 +116,8 @@
 				76FCB6912B0E780900D1F2D1 /* Assets.xcassets */,
 				76FCB6932B0E780900D1F2D1 /* LaunchScreen.storyboard */,
 				76FCB6962B0E780900D1F2D1 /* Info.plist */,
+				76FCB6BA2B0E870400D1F2D1 /* cardCollectionCellCollectionViewCell.swift */,
+				76FCB6BC2B0E8F1100D1F2D1 /* CharacterModel.swift */,
 			);
 			path = RickAndMorty;
 			sourceTree = "<group>";
@@ -125,6 +137,22 @@
 				76FCB6AB2B0E780900D1F2D1 /* RickAndMortyUITestsLaunchTests.swift */,
 			);
 			path = RickAndMortyUITests;
+			sourceTree = "<group>";
+		};
+		76FCB6C42B13A28200D1F2D1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				76FCB6C52B13A29000D1F2D1 /* rickAndMortyBackground.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		76FCB6C72B13A55F00D1F2D1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				76FCB6C92B13AA3C00D1F2D1 /* get_schwifty.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +259,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76FCB6C62B13A29000D1F2D1 /* rickAndMortyBackground.jpg in Resources */,
+				76FCB6CA2B13AA3C00D1F2D1 /* get_schwifty.ttf in Resources */,
 				76FCB6952B0E780900D1F2D1 /* LaunchScreen.storyboard in Resources */,
 				76FCB6922B0E780900D1F2D1 /* Assets.xcassets in Resources */,
 				76FCB6902B0E780800D1F2D1 /* Main.storyboard in Resources */,
@@ -259,7 +289,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				76FCB68D2B0E780800D1F2D1 /* ViewController.swift in Sources */,
+				76FCB6BD2B0E8F1100D1F2D1 /* CharacterModel.swift in Sources */,
 				76FCB6892B0E780800D1F2D1 /* AppDelegate.swift in Sources */,
+				76FCB6BB2B0E870400D1F2D1 /* cardCollectionCellCollectionViewCell.swift in Sources */,
 				76FCB68B2B0E780800D1F2D1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +469,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K5K98CUL87;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RickAndMorty/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,6 +497,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K5K98CUL87;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RickAndMorty/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
