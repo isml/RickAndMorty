@@ -20,6 +20,8 @@
 		76FCB6BD2B0E8F1100D1F2D1 /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FCB6BC2B0E8F1100D1F2D1 /* CharacterModel.swift */; };
 		76FCB6C62B13A29000D1F2D1 /* rickAndMortyBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76FCB6C52B13A29000D1F2D1 /* rickAndMortyBackground.jpg */; };
 		76FCB6CA2B13AA3C00D1F2D1 /* get_schwifty.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76FCB6C92B13AA3C00D1F2D1 /* get_schwifty.ttf */; };
+		76FCB6CD2B13D8F700D1F2D1 /* Kingfisher.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FCB6CC2B13D8F700D1F2D1 /* Kingfisher.xcframework */; };
+		76FCB6CE2B13D8F700D1F2D1 /* Kingfisher.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 76FCB6CC2B13D8F700D1F2D1 /* Kingfisher.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		76FCB6CF2B13D8F700D1F2D1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				76FCB6CE2B13D8F700D1F2D1 /* Kingfisher.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		76FCB6852B0E780800D1F2D1 /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76FCB6882B0E780800D1F2D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +73,7 @@
 		76FCB6BC2B0E8F1100D1F2D1 /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
 		76FCB6C52B13A29000D1F2D1 /* rickAndMortyBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rickAndMortyBackground.jpg; sourceTree = "<group>"; };
 		76FCB6C92B13AA3C00D1F2D1 /* get_schwifty.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = get_schwifty.ttf; sourceTree = SOURCE_ROOT; };
+		76FCB6CC2B13D8F700D1F2D1 /* Kingfisher.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Kingfisher.xcframework; path = Carthage/Build/Kingfisher.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76FCB6CD2B13D8F700D1F2D1 /* Kingfisher.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +109,7 @@
 				76FCB69E2B0E780900D1F2D1 /* RickAndMortyTests */,
 				76FCB6A82B0E780900D1F2D1 /* RickAndMortyUITests */,
 				76FCB6862B0E780800D1F2D1 /* Products */,
+				76FCB6CB2B13D8F700D1F2D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,6 +174,14 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		76FCB6CB2B13D8F700D1F2D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76FCB6CC2B13D8F700D1F2D1 /* Kingfisher.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -165,6 +192,7 @@
 				76FCB6812B0E780800D1F2D1 /* Sources */,
 				76FCB6822B0E780800D1F2D1 /* Frameworks */,
 				76FCB6832B0E780800D1F2D1 /* Resources */,
+				76FCB6CF2B13D8F700D1F2D1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
